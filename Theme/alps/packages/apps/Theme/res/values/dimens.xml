@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gridview_padding">16.0dip</dimen>
+    <dimen name="gridview_gap">10.0dip</dimen>
+    <dimen name="coverflow_space">0.0dip</dimen>
+    <dimen name="thumb_disp_width">303.0px</dimen>
+    <dimen name="thumb_disp_height">480.0px</dimen>
+    <dimen name="thumb_item_width">98.0dip</dimen>
+    <dimen name="thumb_item_height">80.0dip</dimen>
+</resources>

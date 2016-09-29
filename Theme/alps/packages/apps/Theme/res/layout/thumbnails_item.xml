@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/thumbnail_all_bg" 
+    android:layout_width="@dimen/thumb_item_width" 
+    android:layout_height="@dimen/thumb_item_height"
+  >
+    <ImageView android:id="@id/theumbnails" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:src="@drawable/default_thumbnails_all" 
+        android:scaleType="fitCenter" />
+    
+    <ImageView android:id="@id/current" 
+        android:visibility="invisible" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="bottom|center|right" 
+        android:src="@drawable/current" />
+    
+    <View android:id="@id/cover" 
+        android:background="#a0000000" 
+        android:visibility="invisible" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="edit_rebootTotalCounts_number">false</item>
+    <item type="id" name="edit_rebootFrequency_number">false</item>
+    <item type="id" name="text_rebootDescription">false</item>
+    <item type="id" name="btn_set_reboot">false</item>
+    <item type="id" name="btn_cancle_ok_toggle">false</item>
+</resources>

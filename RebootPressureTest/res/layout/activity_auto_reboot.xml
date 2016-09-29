@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+
+    <TableLayout android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true">
+        <TableRow android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="80dip">
+            <TextView android:textSize="15.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="@string/rebootTotalCounts" />
+            
+            <EditText android:id="@id/edit_rebootTotalCounts_number"
+                android:textSize="15.0dip"  
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:inputType="number"/>
+        </TableRow>
+        
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="@string/rebootFrequency" />
+            <EditText android:id="@id/edit_rebootFrequency_number" 
+                android:textSize="15.0dip" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:inputType="number" 
+                android:layout_below="@id/edit_rebootTotalCounts_number"/>
+                </TableRow>
+    </TableLayout>
+
+    <TextView android:textSize="20.0dip" 
+        android:id="@id/text_rebootDescription" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true" />
+    
+    <Button android:id="@id/btn_set_reboot" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20.0dip" 
+        android:layout_marginBottom="120.0dip" 
+        android:text="@string/setReboot" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentBottom="true" />
+    
+    <Button android:id="@id/btn_cancle_ok_toggle" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="20.0dip" 
+        android:layout_marginBottom="120.0dip" 
+        android:layout_alignParentRight="true" 
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

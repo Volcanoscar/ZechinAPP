@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RebootPressureTest</string>
+    <string name="rebootTotalCounts">设置重启次数</string>
+    <string name="rebootFrequency">设置重启时间</string>
+    <string name="rebootDescription">这是第%1$d次重启\n还剩下%2$d次重启\n%3$d秒后即将进行本次重启.</string>
+	<string name="rebootDescription_cancel">这是第%1$d次重启\n还剩下%2$d次重启\n本次重启已被暂停.</string>
+	<string name="RebootFinishTest">本轮测试已完成.</string>
+	<string name="RebootFinishError">数据设置有错！请检查！</string>
+    <string name="setReboot">设置参数</string>
+	<string name="saveRebootParameters">保存参数</string>
+    <string name="rebootOK">开启自动重启</string>
+    <string name="rebootCancel">取消自动重启</string>
+</resources>
